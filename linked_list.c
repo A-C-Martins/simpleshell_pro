@@ -102,8 +102,8 @@ LISTCMD *node_starts_with(LISTCMD *node, char *prefix, char c)
 
 /**
  * get_node_index - gets the index of a node
- * @head: pointer to list head
- * @node: pointer to the node
+ * @head: pointer to list head.
+ * @node: pointer to the node.
  *
  * Return: index of node or -1
  */
