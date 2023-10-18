@@ -111,8 +111,8 @@ ssize_t read_buf(CMD_T *cmd, char *buf, size_t *i)
 
 /**
  * _getline - gets the next line of input from STDIN
- * @cmd: parameter struct
- * @ptr: address of pointer to buffer, preallocated or NULL
+ * @cmd: parameter struct.
+ * @ptr: address of pointer to buffer, preallocated or NULL.
  * @length: size of preallocated ptr buffer if not NULL
  *
  * Return: s
@@ -158,7 +158,7 @@ int _getline(CMD_T *cmd, char **ptr, size_t *length)
 
 /**
  * sigintHandler - blocks ctrl-C
- * @sig_num: the signal number
+ * @sig_num: the signal number.
  *
  * Return: void
  */
