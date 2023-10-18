@@ -80,7 +80,7 @@ int _mycd(CMD_T *cmd)
 }
 
 /**
- * _myhelp - changes the current directory of the process
+ * _myhelp - changes the current directory of the process.
  * @cmd: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  *  Return: Always 0
