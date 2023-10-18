@@ -59,9 +59,9 @@ int set_alias(CMD_T *cmd, char *str)
 
 /**
  * print_alias - prints an alias string
- * @node: the alias node
+ * @node: the alias node.
  *
- * Return: Always 0 on success, 1 on error
+ * Return: Always 0 on success, 1 on error.
  */
 int print_alias(LISTCMD *node)
 {
@@ -84,7 +84,7 @@ int print_alias(LISTCMD *node)
  * _myalias - mimics the alias builtin (man alias)
  * @cmd: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
- *  Return: Always 0
+ * Return: Always 0.
  */
 int _alias(CMD_T *cmd)
 {
