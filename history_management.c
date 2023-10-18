@@ -124,10 +124,10 @@ int build_history_list(CMD_T *cmd, char *buf, int linecount)
 }
 
 /**
- * renumber_history - renumbers the history linked list after changes
- * @cmd: Structure containing potential arguments. Used to maintain
+ * renumber_history - renumbers the history linked list after changes.
+ * @cmd: Structure containing potential arguments. Used to maintain.
  *
- * Return: the new histcount
+ * Return: the new histcount.
  */
 int renumber_history(CMD_T *cmd)
 {
