@@ -56,7 +56,7 @@ int _unsetenv(CMD_T *cmd, char *var)
  *        constant function prototype.
  * @var: the string env var property
  * @value: the string env var value
- *  Return: Always 0
+ * Return: Always 0
  */
 int _setenv(CMD_T *cmd, char *var, char *value)
 {
